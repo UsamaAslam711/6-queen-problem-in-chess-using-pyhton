@@ -1,2 +1,3 @@
 # 6-queen-problem-in-chess-using-pyhton
 This code consists of placing 6 chess queens on a 6x6 chessboard such that none of them is able to capture any other using the standard chess queen's moves. 
+A solution requires that no two queens share the same row, column, or diagonal. A CSP for this problem can be stated by means of six variables and three constraints. One variable for each of the six queens to represent their row positions on the chessboard, each variable lying in the domain [1,6] (6 rows). One constraint to avoid that two queens are placed in the same row. One constraint to avoid that two queens are placed in the first diagonal; and finally one constraint to avoid that two queens are placed in the second diagonal.
